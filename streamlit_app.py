@@ -1,9 +1,6 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-import os
-
-hf_token = os.getenv("HF_API_TOKEN")
 
 # Basic keyword-based category mapping
 CATEGORY_KEYWORDS = {
